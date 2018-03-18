@@ -1,8 +1,10 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
-
 import { AppComponent } from './app.component';
+import { HttpClientModule } from '@angular/common/http';
+import { SpeedtestService } from './speedtest.service';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { NgxChartsModule } from '@swimlane/ngx-charts';
 
 
 @NgModule({
@@ -10,9 +12,14 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule,
+    BrowserAnimationsModule,
+    NgxChartsModule
   ],
-  providers: [],
+  providers: [
+    SpeedtestService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

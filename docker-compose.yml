@@ -1,0 +1,17 @@
+version: '3.5'
+
+services:
+
+  speedtest:
+    image: speedtest_dev
+    container_name: speedtest_dev
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - '.:/usr/src/app'
+      - '/usr/src/app/node_modules'
+    ports:
+      - '4200:4200'
+    environment:
+      - CHOKIDAR_USEPOLLING=true
