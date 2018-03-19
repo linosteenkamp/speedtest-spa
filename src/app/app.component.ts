@@ -21,7 +21,7 @@ export class AppComponent implements OnInit {
   // options
   showXAxis = true;
   showYAxis = true;
-  gradient = false;
+  gradient = true;
   showLegend = true;
   showXAxisLabel = true;
   xAxisLabel = 'Time';
