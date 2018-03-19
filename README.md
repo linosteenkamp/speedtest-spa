@@ -2,11 +2,12 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.3.
 
-## Docker
-  Run docker container `docker-compose up -d --build`
+## Docker as development environment
+  Run docker container `docker-compose up -d --build` Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
+  
   Shell into docker `docker-compose exec speedtest sh`
   
-## Development server
+## Or local Development environment 
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
