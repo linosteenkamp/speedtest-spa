@@ -24,7 +24,11 @@
     "@swimlane/ngx-charts": "^7",
     "core-js": "^2.4.1",
     "d3": "^5.1.0",
-    "zone.js": "^0.8.19"
+    "zone.js": "^0.8.19",
+    "adm-zip": "~>0.4.11",
+    "hoek": "~>4.2.1",
+    "https-proxy-agent": "~>2.2.0",
+    "url-parse": "~>1.4.3"
   },
   "devDependencies": {
     "@angular/cli": "~1.7.3",
