@@ -31,7 +31,8 @@
     "npm": "^6.4.1",
     "randomatic": "~>3.0.0",
     "url-parse": "~>1.4.3",
-    "zone.js": "^0.8.19"
+    "zone.js": "^0.8.19",
+    "cryptiles": "~>4.1.2"
   },
   "devDependencies": {
     "@angular/cli": "~1.7.3",
