@@ -22,13 +22,16 @@
     "@angular/platform-browser-dynamic": "^5.2.0",
     "@angular/router": "^5.2.0",
     "@swimlane/ngx-charts": "^7",
+    "adm-zip": "~>0.4.11",
+    "atob": "~>2.1.0",
     "core-js": "^2.4.1",
     "d3": "^5.1.0",
-    "zone.js": "^0.8.19",
-    "adm-zip": "~>0.4.11",
     "hoek": "~>4.2.1",
     "https-proxy-agent": "~>2.2.0",
-    "url-parse": "~>1.4.3"
+    "npm": "^6.4.1",
+    "randomatic": "~>3.0.0",
+    "url-parse": "~>1.4.3",
+    "zone.js": "^0.8.19"
   },
   "devDependencies": {
     "@angular/cli": "~1.7.3",
